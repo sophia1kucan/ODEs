@@ -1,0 +1,13 @@
+terminal commands
+
+ls - list files
+htop - show activity
+cd - change directory
+pwd - path to the working directory (where you are)
+tree - show contents
+cat - dump file to screen
+wc - word count
+| - 'pipe' channel output from one program to another eg. cat filename|wc -list
+'cd -' - change directory to previous directory
+pushd directory - change directory to new directory and push current directory on the stack
+popd - go to the last pushed directory on the stack
