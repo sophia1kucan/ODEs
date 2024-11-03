@@ -1,7 +1,7 @@
-most things are self-documenting. type <command> --help may give clues or <commad> <partial params> --help 
+## most things are self-documenting. type <command> --help may give clues or <commad> <partial params> --help 
 
 
-terminal commands
+### terminal commands
 
 ls - list files
 htop - show activity
@@ -15,8 +15,9 @@ wc - word count
 pushd directory - change directory to new directory and push current directory on the stack
 popd - go to the last pushed directory on the stack
 mv a b - move object a to object b but really this is a rename
+rm <object> - remove object
 
-conda/mamba commands
+### conda/mamba commands
 mamba is just the new conda
 an environment is a python installation with a set of target packages
 you can have multiple independent environments with different possibly conflicting packages
@@ -27,7 +28,7 @@ mamba install <package>[=version] - installs a package into the active environme
 mamba list - lists packages in active environment 
 
 
-git commands
+### git commands
 git init . - initialises/creates a brand new git repository in the current folder
 git add ./<some path> - adds changes for submission
 git commit . - commits changes locally
