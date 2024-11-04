@@ -2,7 +2,7 @@
 
 
 ### terminal commands
-
+---
 - ls - list files
 - htop - show activity
 - cd - change directory
