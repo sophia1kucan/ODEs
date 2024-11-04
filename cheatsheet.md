@@ -16,7 +16,7 @@ sdfasdfsa
 - pushd directory - change directory to new directory and push current directory on the stack
 - popd - go to the last pushed directory on the stack
 - mv a b - move object a to object b but really this is a rename
-- rm <object> - remove object
+- rm - remove object
 
 asdfsdaf
 
