@@ -11,12 +11,15 @@ A bunch of useful commands for the terminal usage.
 - tree - show contents
 - cat - dump file to screen
 - wc - word count
-- | - 'pipe' channel output from one program to another eg. cat filename|wc -list
+- | - 'pipe' channel output from one program to another eg. ```cat filename | wc -list```
 - 'cd -' - change directory to previous directory
 - pushd directory - change directory to new directory and push current directory on the stack
 - popd - go to the last pushed directory on the stack
 - mv a b - move object a to object b but really this is a rename
 - rm \<object\>- remove object
+- grep - search in files for patterns. e.g.
+    ```cat somefile.txt | grep -E "sophia kucan"``` matches all lines in the file that contain "sophia kucan". important concept here is regular expressions. so you can do something like this too: ```cat somefile.txt | grep -E "(sophia)|(lev) kucan"``` which will match all the lines contaning "sophia kucan" or "lev kucan"
+- kill -9  \<pid\> - kill a program identified by the process id (pid)
 
 
 ---
