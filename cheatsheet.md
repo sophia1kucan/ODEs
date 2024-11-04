@@ -2,8 +2,8 @@
 
 ---
 ### terminal commands
+A bunch of useful commands for the terminal usage.
 
-sdfasdfsa
 - ls - list files
 - htop - show activity
 - cd - change directory
@@ -18,27 +18,25 @@ sdfasdfsa
 - mv a b - move object a to object b but really this is a rename
 - rm \<object\>- remove object
 
-asdfsdaf
 
 ---
 ### conda/mamba commands
+mamba is a newer and better conda, almost 100% compatible. it is much faster so use mamba where possible. if a mamba command doesnt work, it may be worth trying conda
 - mamba is just the new conda
 - an environment is a python installation with a set of target packages
 - you can have multiple independent environments with different possibly conflicting packages
 - mamba env list - list all environments
 - mamba create -n newenv - creates a new mamba/conda/python environment called 'newenv'
 - mamba activate newenv - activates (makes current) the newenv environment
-- mamba install <package>[=version] - installs a package into the active environment. You can target a different environment by specifying -n'env'
+- mamba install \<package\>[=version] - installs a package into the active environment. You can target a different environment by specifying -n'env'
 - mamba list - lists packages in active environment 
-asdfsadf
+
 
 ---
 ### git commands
-asdf
+git is used to managa source code. makes sure you dont lose code. you can use versions, and also branches for developing with others.
 - git init . - initialises/creates a brand new git repository in the current folder
-- git add ./<some path> - adds changes for submission
+- git add ./\<some path\> - adds changes for submission
 - git commit . - commits changes locally
 - git push - push changes to remote repository
 - git pull - pull changes from remote repository
-
-asdfasdfsad
