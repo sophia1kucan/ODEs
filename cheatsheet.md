@@ -16,8 +16,10 @@
 - popd - go to the last pushed directory on the stack
 - mv a b - move object a to object b but really this is a rename
 - rm <object> - remove object
+asdfsdaf
 
 ### conda/mamba commands
+---
 - mamba is just the new conda
 - an environment is a python installation with a set of target packages
 - you can have multiple independent environments with different possibly conflicting packages
@@ -26,6 +28,8 @@
 - mamba activate newenv - activates (makes current) the newenv environment
 - mamba install <package>[=version] - installs a package into the active environment. You can target a different environment by specifying -n'env'
 - mamba list - lists packages in active environment 
+asdfsadf
+---
 
 ### git commands
 - git init . - initialises/creates a brand new git repository in the current folder
